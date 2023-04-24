@@ -1,0 +1,25 @@
+{
+  "name": "babytrackerapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Loren Gayle",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "pus": "^2.0.0"
+  }
+}
