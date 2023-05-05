@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
 const middleware = require("./middleware");
 const path = require("path");
 const bodyParser = require("body-parser");
 const mongoose = require("./database");
 const session = require("express-session");
 
-
+// server connection - 
 const server = app.listen(port, () => console.log("Server listening on port: " + port));
 
 app.set("view engine", "pug");
